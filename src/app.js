@@ -7,7 +7,7 @@ const api = require("./routes/api")
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://server-musicapp.ondigitalocean.app"
 }))
 app.use(express.json());
 

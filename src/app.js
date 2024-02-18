@@ -7,7 +7,10 @@ const api = require("./routes/api")
 const app = express();
 
 app.use(cors({
-    origin: "https://server.meliordism.az"
+  origin: "https://client.meliordism.az",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true,
 }))
 app.use(express.json());
 

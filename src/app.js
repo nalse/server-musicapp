@@ -7,7 +7,7 @@ const api = require("./routes/api")
 const app = express();
 
 app.use(cors({
-    origin: "https://server-musicapp.ondigitalocean.app"
+    origin: "http://server.meliordism.az"
 }))
 app.use(express.json());
 

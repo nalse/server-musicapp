@@ -1,7 +1,7 @@
 const http = require("http");
 const mongoose = require("mongoose")
 
-const PORT = 80;
+const PORT = 8080;
 const DB = "mongodb+srv://ulka:ulka2005@cluster0.0ztiq13.mongodb.net/test3"
 
 const app = require("./app");
